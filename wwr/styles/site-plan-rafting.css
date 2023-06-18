@@ -1,0 +1,60 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Vina+Sans&display=swap" rel="stylesheet">)
+
+:root {
+
+--primary-color: #6286a7 ;
+--secondary-color: #ff0e0a;
+--accent1-color: #ff751f ;
+    --accent2-color: #ffed47 ;
+
+    --header-font:serif
+    --paragraph-font:serif
+
+    --nav-background-color:;
+    --nav-link-color:#ff751f ;
+    --nav-hover-link-color:#ff0e0a ;
+    --nav-hover-background-color:#ffed47 ;
+}
+
+body {
+f______: var(--paragraph-font);
+m______: ______;
+p______: ______;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--header-font);
+    color: var(--secondary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--nav-background-color);
+}
+p {
+    padding: 25px;
+}
+
+nav { 
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color)
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
